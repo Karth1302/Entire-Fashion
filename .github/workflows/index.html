@@ -1,1 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entire Fashion - Garment Manufacturing & Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <svg class="logo-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="50" cy="50" r="48" fill="url(#logoGradient)" opacity="0.1"/>
+                    <path d="M30 35 L50 20 L70 35 L70 70 Q50 85 30 70 Z" fill="url(#logoGradient)" stroke="url(#logoGradient)" stroke-width="2"/>
+                    <line x1="40" y1="45" x2="60" y2="45" stroke="white" stroke-width="2"/>
+                    <line x1="40" y1="55" x2="60" y2="55" stroke="white" stroke-width="2"/>
+                    <line x1="40" y1="65" x2="55" y2="65" stroke="white" stroke-width="2"/>
+                </svg>
+                <div class="logo">ENTIRE FASHION</div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
 
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Premium Garment Manufacturing & Design</h1>
+            <p class="hero-subtitle">Crafting Quality Fashion for Global Markets</p>
+            <button class="cta-button" onclick="scrollToContact()">Get in Touch</button>
+        </div>
+        <div class="hero-background">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Entire Fashion</h2>
+            <div class="about-content">
+                <div class="about-text box">
+                    <h3>Who We Are</h3>
+                    <p>Entire Fashion is a leading garment manufacturing and design company specializing in premium quality fashion wear. With over a decade of experience, we serve international brands and retailers with excellence.</p>
+                    <p>We combine traditional craftsmanship with modern technology to deliver world-class garments that meet the highest international standards.</p>
+                    <p>Our dedicated team of designers, manufacturers, and quality control experts ensures every piece reflects perfection.</p>
+                </div>
+                <div class="about-image box">
+                    <img src="Logo.jpeg" alt="Entire Fashion Manufacturing" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card box">
+                    <div class="service-icon">Design & Development</div>
+                    <h3>Design & Development</h3>
+                    <p>Custom design services with in-house CAD technology and trend forecasting to create unique collections.</p>
+                </div>
+                <div class="service-card box">
+                    <div class="service-icon">Manufacturing</div>
+                    <h3>Manufacturing</h3>
+                    <p>State-of-the-art manufacturing facilities with cutting-edge machinery and skilled workforce for bulk production.</p>
+                </div>
+                <div class="service-card box">
+                    <div class="service-icon">Quality Assurance</div>
+                    <h3>Quality Assurance</h3>
+                    <p>Rigorous quality control at every stage ensuring zero-defect products meeting international standards.</p>
+                </div>
+                <div class="service-card box">
+                    <div class="service-icon">Packaging & Logistics</div>
+                    <h3>Packaging & Logistics</h3>
+                    <p>Complete packaging solutions and reliable logistics partnerships for global distribution.</p>
+                </div>
+                <div class="service-card box">
+                    <div class="service-icon">Fabric Sourcing</div>
+                    <h3>Fabric Sourcing</h3>
+                    <p>Access to premium fabrics from trusted suppliers worldwide with competitive pricing.</p>
+                </div>
+                <div class="service-card box">
+                    <div class="service-icon">Supply Chain Management</div>
+                    <h3>Supply Chain Management</h3>
+                    <p>Efficient supply chain solutions ensuring timely delivery and cost optimization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item box">
+                    <div class="portfolio-image">
+                        <div class="portfolio-icon">CASUAL</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Casual Wear</h3>
+                        <p>Premium casual shirts and t-shirts for international brands</p>
+                    </div>
+                </div>
+                <div class="portfolio-item box">
+                    <div class="portfolio-image">
+                        <div class="portfolio-icon">FORMAL</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Formal Wear</h3>
+                        <p>High-quality formal shirts and trousers for corporate sector</p>
+                    </div>
+                </div>
+                <div class="portfolio-item box">
+                    <div class="portfolio-image">
+                        <div class="portfolio-icon">ACTIVE</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Activewear</h3>
+                        <p>Performance-based activewear and sportswear collections</p>
+                    </div>
+                </div>
+                <div class="portfolio-item box">
+                    <div class="portfolio-image">
+                        <div class="portfolio-icon">KIDS</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Kids Collection</h3>
+                        <p>Comfortable and durable clothing for children</p>
+                    </div>
+                </div>
+                <div class="portfolio-item box">
+                    <div class="portfolio-image">
+                        <div class="portfolio-icon">OUTDOOR</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Outdoor Wear</h3>
+                        <p>Weather-resistant outdoor and hiking clothing</p>
+                    </div>
+                </div>
+                <div class="portfolio-item box">
+                    <div class="portfolio-image">
+                        <div class="portfolio-icon">ETHNIC</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Ethnic Wear</h3>
+                        <p>Traditional and contemporary ethnic clothing designs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-container">
+                <div class="contact-info box">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <label>Address</label>
+                        <p>Entire Fashion <br>Udyog Vihar, Gurugram, Haryana - India</p>
+                    </div>
+                    <div class="contact-item">
+                        <label>Phone</label>
+                        <p>+91 96162 16484<br>+91 74619 98170</p>
+                    </div>
+                    <div class="contact-item">
+                        <label>Email</label>
+                        <p>contact@entirefashion.com<br>md@entirefashion.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <label>Business Hours</label>
+                        <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 3:00 PM</p>
+                    </div>
+                </div>
+
+                <form class="contact-form box" onsubmit="handleSubmit(event)">
+                    <h3>Send us a Message</h3>
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company Name *</label>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="Mobile">Phone Number</label>
+                        <input type="tel" id="Mobile" name="Mobile">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 Entire Fashion. All rights reserved.</p>
+            <p>Premium Garment Manufacturing & Design Solutions</p>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="scrollToTop" class="scroll-to-top"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
